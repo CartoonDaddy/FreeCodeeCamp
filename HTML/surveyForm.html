@@ -1,0 +1,50 @@
+<!-- survey form -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Titulo</h1>
+      <p id="description">esto es un parrafo</p>
+
+      <form id="survey-form">
+        <input id="name" type="text" placeholder="nombre" required/>
+        <label id="name-label">name</label>
+         <select id="dropdown" name="dropdown">
+
+               <option value="opcion1">Opción 1</option>
+               <option value="opcion2">Opción 2</option>
+
+         </select>
+      <input type="radio" name="opciones" value="1" />
+      <input type="radio" name="opciones" value="2" />
+
+        <button value="1" name="opcion1">boton1</button>
+        <button value="2" name="opcion2">boton2</button>
+
+       <input type="checkbox" value="1" />
+       <input type="checkbox" value="2"/>
+      
+      <textarea id="comments" name="comments" rows="4" cols="50">
+  Enter your comments here...
+</textarea>
+<input id="submit" type="submit"/>
+
+
+        <input id="email" type="email" placeholder="imail" required/>
+        <label id="email-label">mail</label>
+
+
+
+
+        <input id="number" type="number" placeholder="numero" min="2" max="5"/>
+        <label id="number-label">number</label>
+
+      </form>
+  </body>
+</html>
